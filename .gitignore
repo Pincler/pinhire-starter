@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Secrets & Environment Variables (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+service-account*.json
+
+# Local Databases & Vector Indexes
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+pgdata/
+redis-data/
+
+# Logs & OS Artifacts
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
